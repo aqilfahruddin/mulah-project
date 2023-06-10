@@ -1,4 +1,5 @@
 <div class="table-responsive">
+    {{-- start : Table 1 --}}
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -89,26 +90,31 @@
             </tr>
         </tbody>
     </table>
+    {{-- end : Table 1 --}}
     <br>
 
     {{-- start : Table 2 --}}
     <table class="table table-bordered">
-        <tr>
-            <th> Category </th>
-            <th> Value </th>
-        </tr>
-        <tr>
-            <td> Alpha </td>
-            <td> 30 </td>
-        </tr>
-        <tr>
-            <td> Beta </td>
-            <td> 16 </td>
-        </tr>
-        <tr>
-            <td> Charlie </td>
-            <td> 270 </td>
-        </tr>
+        <thead>
+            <tr>
+                <th> Category </th>
+                <th> Value </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Alpha </td>
+                <td> 30 </td>
+            </tr>
+            <tr>
+                <td> Beta </td>
+                <td> 16 </td>
+            </tr>
+            <tr>
+                <td> Charlie </td>
+                <td> 270 </td>
+            </tr>
+        </tbody>
     </table>
     {{-- end : Table 2 --}}
 </div>
